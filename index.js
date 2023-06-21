@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(express.urlencoded());
 
 app.get('/cors', (req, res) => {
-    res.set('Access-Control-Allow-Origin', 'https://campusbook-ict4d.vercel.app');
+    res.set('Access-Control-Allow-Origin', 'https://campusbook-groupe8.onrender.com');
     res.send({ "msg": "This has CORS enabled 🎈" })
     })
 
