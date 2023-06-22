@@ -19,13 +19,13 @@ app.use(express.json());
 app.use(express.urlencoded());
 
 app.get('/cors', (req, res) => {
-    res.set('Access-Control-Allow-Origin', 'https://campusbook-groupe8.onrender.com');
+    res.set('Access-Control-Allow-Origin', 'https://campusbook-ict4d.vercel.app');
     res.send({ "msg": "This has CORS enabled 🎈" })
     })
 
 
 app.get('/', (req, res) => {
-    res.send('Hello, World!');
+    res.send('Execution of server termine with successful !!! You can visit apk at -> https://campusbook-ict4d.vercel.app ');
 });
 
 app.post('/', (req, res) => {
