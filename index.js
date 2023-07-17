@@ -25,7 +25,7 @@ app.get('/cors', (req, res) => {
 
 
 app.get('/', (req, res) => {
-    res.send('Execution of server termine with successful !!! You can visit apk at -> https://campusbook-ict4d.vercel.app ');
+    res.send('Execution of server termine with successful !!! You can visit apk at https://campusbook-ict4d.vercel.app ');
 });
 
 app.post('/', (req, res) => {
